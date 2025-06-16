@@ -54,95 +54,38 @@ p {
   line-height: 2;
 }
 
-.about-section {
+.contant-container {
   padding: 160px 20px;
 }
 
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content h2 {
   font-size: 15px;
   font-family: var(--default-font-family);
 }
 
-.about-section-content {
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content {
   margin: 30px;
 }
 
-:root {
-  --branding-color: #9f7c5b;
-  --secondary-color: #f6f3f1;
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
-}
-
-body {
-  font-family: var(--default-font-family);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: black;
-  font-family: var(--heading-font-family);
-  font-weight: bold;
-}
-
-h1 {
-  font-size: 96px;
-  font-weight: bold;
-}
-
-h3 {
-  font-size: 64px;
-}
-p {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-}
-
-.hero {
-  background: var(--secondary-color);
-  text-align: center;
-  padding: 160px 20px;
-}
-
-.hero p {
-  font-weight: bold;
-  font-size: 36px;
-  margin: 0;
-  color: #272142;
-}
-
-.hero h2 {
-  font-family: var(--heading-font-family);
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 2;
-}
-
-.about-section {
-  padding: 160px 20px;
-}
-
-.about-section h1 {
-  font-size: 64px;
-  line-height: 80px;
-}
-
-.about-section h2 {
-  font-size: 15px;
-  font-family: var(--default-font-family);
-}
-
-.about-section-content {
+.about-section img {
+  border-radius: 12px;
+  max-width: 100%;
   margin: 30px;
 }
 .btn-branding {
@@ -165,6 +108,25 @@ p {
 
 .project-description {
   padding: 0 30px;
+}
+
+.project-image {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
 }
 
 @media (max-width: 900px) {
@@ -227,7 +189,7 @@ p {
     padding: 80px 20px;
   }
 
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
