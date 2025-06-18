@@ -124,6 +124,7 @@ p {
 .contact-section a:hover {
   text-decoration: underline;
 }
+
 .btn-branding {
   background-color: var(--branding-color);
   border-radius: 4px;
